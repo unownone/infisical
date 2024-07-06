@@ -603,11 +603,11 @@ export const AppLayout = ({ children }: LayoutProps) => {
                           </MenuItem>
                         </a>
                       </Link>
-                      <Link href={`/project/${currentWorkspace?.id}/secrets/consumer`} passHref>
+                      <Link href={`/project/${currentWorkspace?.id}/consumer-secrets`} passHref>
                         <a>
                           <MenuItem
                             isSelected={
-                              router.asPath === `/project/${currentWorkspace?.id}/secrets/consumer`
+                              router.asPath === `/project/${currentWorkspace?.id}/consumer-secrets`
                             }
                             icon="system-outline-90-lock-closed"
                           >

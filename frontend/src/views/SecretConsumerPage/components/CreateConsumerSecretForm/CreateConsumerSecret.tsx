@@ -46,7 +46,7 @@ type Props = {
   onTogglePopUp: (isOpen: boolean) => void;
 };
 
-export const CreateConsumerSecretForm: React.FC<Props> = ({
+export const CreateConsumerSecretFormModal: React.FC<Props> = ({
   // secretPath = "/",
   isOpen,
   // getSecretByKey,
