@@ -76,6 +76,8 @@
     "title": "Secrets",
     "og-title": "Manage your .env files in seconds",
     "og-description": "Infisical a simple end-to-end encrypted platform that enables teams to sync and manage their .env files.",
+    "consumer-secret-title": "Consumer Secrets",
+    "consumer-secret-description": "Consumer secrets are used to authenticate with third-party services. They are not shared with your team.",
     "search-keys": "Search keys...",
     "add-key": "Add Key",
     "personal": "Personal",

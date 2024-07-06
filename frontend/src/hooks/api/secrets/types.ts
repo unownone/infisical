@@ -90,6 +90,13 @@ export type TGetProjectSecretsAllEnvDTO = {
   isPaused?: boolean;
 };
 
+export type TGetProjectConsumerSecretsDTO = {
+  workspaceId: string;
+  decryptFileKey: UserWsKeyPair;
+  secretPath?: string;
+  isPaused?: boolean;
+}
+
 export type GetSecretVersionsDTO = {
   secretId: string;
   limit: number;
