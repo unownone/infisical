@@ -279,6 +279,7 @@ import {
   TWebhooksInsert,
   TWebhooksUpdate
 } from "@app/db/schemas";
+import { TConsumerSecrets, TConsumerSecretsInsert, TConsumerSecretsUpdate } from "@app/db/schemas/consumer-secrets";
 
 declare module "knex" {
   namespace Knex {
@@ -400,6 +401,11 @@ declare module "knex/types/tables" {
     >;
     [TableName.ProjectKeys]: KnexOriginal.CompositeTableType<TProjectKeys, TProjectKeysInsert, TProjectKeysUpdate>;
     [TableName.Secret]: KnexOriginal.CompositeTableType<TSecrets, TSecretsInsert, TSecretsUpdate>;
+    [TableName.ConsumerSecret]: KnexOriginal.CompositeTableType<
+      TConsumerSecrets,
+      TConsumerSecretsInsert,
+      TConsumerSecretsUpdate
+    >;
     [TableName.SecretReference]: KnexOriginal.CompositeTableType<
       TSecretReferences,
       TSecretReferencesInsert,

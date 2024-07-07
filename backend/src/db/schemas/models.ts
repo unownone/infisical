@@ -36,6 +36,7 @@ export enum TableName {
   ProjectUserMembershipRole = "project_user_membership_roles",
   ProjectKeys = "project_keys",
   Secret = "secrets",
+  ConsumerSecret = "consumer_secrets",
   SecretReference = "secret_references",
   SecretSharing = "secret_sharing",
   SecretBlindIndex = "secret_blind_indexes",
